@@ -40,55 +40,71 @@
             android:columnCount="4"
             android:rowCount="4">
 
-            <Button android:text="1"
+            <Button
+                android:id="@+id/one"
+                android:text="1"
                 android:layout_width="80dp"
                 android:layout_height="80dp"/>
 
             <Button android:text="2"
+                android:id="@+id/two"
                 android:layout_width="80dp"
                 android:layout_height="80dp"/>
 
             <Button android:text="3"
+                android:id="@+id/three"
                 android:layout_width="80dp"
                 android:layout_height="80dp"/>
 
             <Button android:text="+" android:layout_width="80dp"
+                android:id="@+id/add"
                 android:layout_height="80dp"/>
 
             <Button android:text="4" android:layout_width="80dp"
+                android:id="@+id/four"
                 android:layout_height="80dp"/>
 
             <Button android:text="5" android:layout_width="80dp"
+                android:id="@+id/five"
                 android:layout_height="80dp"/>
 
             <Button android:text="6" android:layout_width="80dp"
+                android:id="@+id/six"
                 android:layout_height="80dp"/>
 
             <Button android:text="-" android:layout_width="80dp"
+                android:id="@+id/subtraction"
                 android:layout_height="80dp"/>
 
             <Button android:text="7" android:layout_width="80dp"
+                android:id="@+id/seven"
                 android:layout_height="80dp"/>
 
             <Button android:text="8" android:layout_width="80dp"
+                android:id="@+id/eight"
                 android:layout_height="80dp"/>
 
             <Button android:text="9" android:layout_width="80dp"
+                android:id="@+id/nine"
                 android:layout_height="80dp"/>
 
             <Button android:text="*" android:layout_width="80dp"
+                android:id="@+id/multiply"
                 android:layout_height="80dp"/>
 
             <Button android:text="0"
+                android:id="@+id/zero"
                 android:layout_height="80dp"/>
 
             <Button
+                android:id="@+id/count"
                 android:layout_columnSpan="2"
                 android:layout_gravity="fill"
                 android:text="計算"
                 />
 
             <Button android:text="/"
+                android:id="@+id/division"
                 android:layout_height="80dp"/>
 
         </GridLayout>
